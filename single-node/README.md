@@ -77,3 +77,7 @@ Scripts and tools to deploy this architecture are provided in this repository:
 * [Terraform](terraform/)
 
 ### Summary
+
+The single node database cluster architecture is primarily useful for development
+and testing environments where high availability is not a key concern. It's 
+quick and easy to setup.
