@@ -47,6 +47,13 @@ Multi Node Sync  | Yes        | Yes                | Yes               | Product
 * [Monitoring with EDB PEM](edb-pem/README.md)
 * [Backup & Recovery with EDB BART](edb-bart/README.md)
 
+Add On    | Load balancing | Query Routing | Monitoring & Management | Backup & Recovery |
+----------|:--------------:|:-------------:|:-----------------------:|:-----------------:|
+pgBouncer | Yes            | No            | No                      | No                |
+pgPool    | Yes            | Yes           | No                      | No                |
+EDB PEM   | No             | No            | Yes                     | No                |
+EDB BART  | No             | No            | No                      | Yes               |
+
 ## Improvements and Issues
 
 If you want to suggest any improvements or report any problems you may have 
