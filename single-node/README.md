@@ -20,7 +20,7 @@ Recovery Point Objective        | Dependent on backup strategy
 Geographic Redundancy Objective | N/A
 Target Availability             | 99.9%
 
-### Architectural diagram(s)
+### Architectural diagram
 
 ![Architecture Diagram](images/architecture.png "Architecture Diagram")
 
