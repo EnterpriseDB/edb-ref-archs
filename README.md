@@ -30,9 +30,9 @@ additional functionality you require.
 
 ### Database Clusters
 
-* [Single node](single-node/README.md)
-* [Multi node with asynchronous replication](multi-node-async/README.md)
-* [Multi node with synchronous replication](multi-node-sync/README.md)
+* [Single node](single-node)
+* [Multi node with asynchronous replication](multi-node-async)
+* [Multi node with synchronous replication](multi-node-sync)
 
 Architecture     | Redundancy | Automatic Failover | Multi node commit | Recommended Use                                 |
 -----------------|:----------:|:------------------:|:-----------------:|-------------------------------------------------|
@@ -42,10 +42,10 @@ Multi Node Sync  | Yes        | Yes                | Yes               | Product
 
 ### Add Ons
 
-* [Load balancing with pgBouncer](pgbouncer/README.md)
-* [Load balancing and query routing with pgPool](pgpool/README.md)
-* [Monitoring with EDB PEM](edb-pem/README.md)
-* [Backup & Recovery with EDB BART](edb-bart/README.md)
+* [Load balancing with pgBouncer](pgbouncer)
+* [Load balancing and query routing with pgPool](pgpool)
+* [Monitoring with EDB PEM](edb-pem)
+* [Backup & Recovery with EDB BART](edb-bart)
 
 Add On    | Load balancing | Query Routing | Monitoring & Management | Backup & Recovery |
 ----------|:--------------:|:-------------:|:-----------------------:|:-----------------:|
