@@ -30,16 +30,16 @@ additional functionality you require.
 
 ### Database Clusters
 
-* Single node
-* Multi node with asynchronous replication
-* Multi node with synchronous replication
+* [Single node](single-node/README.md)
+* [Multi node with asynchronous replication](multi-node-async/README.md)
+* [Multi node with synchronous replication](multi-node-sync/README.md)
 
 ### Add Ons
 
-* Load balancing with pgBouncer
-* Load balancing and query routing with pgPool
-* Monitoring with EDB PEM
-* Backup & Recovery with EDB BART
+* [Load balancing with pgBouncer](pgbouncer/README.md)
+* [Load balancing and query routing with pgPool](pgpool/README.md)
+* [Monitoring with EDB PEM](edb-pem/README.md)
+* [Backup & Recovery with EDB BART](edb-bart/README.md)
 
 ## Improvements and Issues
 
