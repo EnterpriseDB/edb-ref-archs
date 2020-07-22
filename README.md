@@ -34,6 +34,12 @@ additional functionality you require.
 * [Multi node with asynchronous replication](multi-node-async/README.md)
 * [Multi node with synchronous replication](multi-node-sync/README.md)
 
+Architecture     | Redundancy | Automatic Failover | Multi node commit | Recommended Use                                 |
+-----------------|:----------:|:------------------:|:-----------------:|-------------------------------------------------|
+Single Node      | No         | No                 | No                | Development/testing                             |
+Multi Node Async | Yes        | Yes                | No                | Production, with transaction loss acceptable    |
+Multi Node Sync  | Yes        | Yes                | Yes               | Production, with no transaction loss acceptable |
+
 ### Add Ons
 
 * [Load balancing with pgBouncer](pgbouncer/README.md)
