@@ -40,8 +40,7 @@ might be considered.
 
 ### What software is required?
 
-* [Red Hat Enterprise](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux) 
-or [CentOS](https://www.centos.org/) Linux
+* Any Linux distribution [supported by EDB products](https://www.enterprisedb.com/product-compatibility).
 * [PostgreSQL](https://www.postgresql.org/) or 
 [EDB Postgres Advanced Server](https://www.enterprisedb.com/products/edb-postgres-advanced-server-secure-ha-oracle-compatible)
 * [EDB Failover Manager (EFM)](https://www.enterprisedb.com/products/postgresql-automatic-failover-manager-cluster-high-availability)
