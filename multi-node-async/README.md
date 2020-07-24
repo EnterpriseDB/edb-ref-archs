@@ -27,7 +27,7 @@ Target Availability             | 99.999%
 
 ### What hardware is required?
 
-* Two or servers (minimum of three recommended), physical or virtual
+* Two or more servers (minimum of three recommended), physical or virtual
     * 1GB+ RAM
     * 4GB+ Disk
     * 1+ CPU cores
@@ -84,7 +84,9 @@ in the cluster. Read-only connections such as those used for reporting
 workloads can be directed to any of the servers, provided that it is acceptable 
 that queries run on them may be a few transactions behind the primary. The
 [pgPool](../pgpool/) add on may be used for load balancing and automated read-only
-vs. read-write query routing (with some caveats on how it is used).
+vs. read-write query routing, though this should be avoided unless there are no
+other options available as there are a number of corner cases where it may not
+work as intended.
 
 9. Where feasible, design applications such that they have separate database 
 connections for read-only and read-write purposes so those can be directed to 
