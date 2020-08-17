@@ -55,12 +55,12 @@ each in a separate availability zone or VMware cluster, server room etc. If
 deploying into a cloud environment, a Virtual Private Cloud should be employed to segregate the server from the Internet.
 
 2. If using EDB Postgres Advanced Server, visit the 
-[EDB Repos](https://repos.enterprisedb.com) website to configure the EDB Yum
+[EDB Repos](https://repos.enterprisedb.com/) website to configure the EDB
 repository and install the database server.
 
 3. If using PostgreSQL, visit the 
-[PostgreSQL Download](https://www.postgresql.org/download/linux/redhat) page 
-to configure the PostgreSQL Yum repository and install the database server.
+[PostgreSQL Download](https://www.postgresql.org/download/linux/) page 
+to configure the PostgreSQL repository and install the database server.
 
 4. Modify the _pg_hba.conf_ file on the server to allow access to the database
 server from the required IP addresses or subnets.
@@ -74,7 +74,7 @@ also be required.
 nodes, per the database server documentation.
 
 7. Install EDB Failover manager by visiting the 
-[EDB Repos](https://repos.enterprisedb.com) website to configure the EDB Yum
+[EDB Repos](https://repos.enterprisedb.com/) website to configure the EDB
 repository (if not already done) and following the steps to install EFM.
 
 8. Configure EFM on each node in the cluster per the documentation. EFM can 
