@@ -58,8 +58,9 @@ deploying into a cloud environment, a Virtual Private Cloud should be employed t
 [EDB Repos](https://repos.enterprisedb.com) website to configure the EDB Yum
 repository and install the database server.
 
-3. If using PostgreSQL, visit the [PostgreSQL Download](https://www.postgresql.org/download/linux/redhat) page to configure the PostgreSQL Yum repository and 
-install the database server.
+3. If using PostgreSQL, visit the 
+[PostgreSQL Download](https://www.postgresql.org/download/linux/redhat) page 
+to configure the PostgreSQL Yum repository and install the database server.
 
 4. Modify the _pg_hba.conf_ file on the server to allow access to the database
 server from the required IP addresses or subnets.
@@ -69,16 +70,19 @@ access to the database server fromt he required IP addresses or subnets. If
 running in a Virtual Private Cloud, an elastic IP address for the server may
 also be required.
 
-6. Install EDB Failover manager by visiting the 
+6. Configure asynchronous log based replication between the primary and standby
+nodes, per the database server documentation.
+
+7. Install EDB Failover manager by visiting the 
 [EDB Repos](https://repos.enterprisedb.com) website to configure the EDB Yum
 repository (if not already done) and following the steps to install EFM.
 
-7. Configure EFM on each node in the cluster per the documentation. EFM can 
+8. Configure EFM on each node in the cluster per the documentation. EFM can 
 manage a virtual IP address for the primary node in physical or VMware 
 environments, or may be configured to manage an elastic IP in clould environments
 through the use of hook scripts.
 
-8. Use the virtual or elastic IP for connections to the primary database server
+9. Use the virtual or elastic IP for connections to the primary database server
 in the cluster. Read-only connections such as those used for reporting 
 workloads can be directed to any of the servers, provided that it is acceptable 
 that queries run on them may be a few transactions behind the primary. The
@@ -87,7 +91,7 @@ vs. read-write query routing, though this should be avoided unless there are no
 other options available as there are a number of corner cases where it may not
 work as intended.
 
-9. Where feasible, design applications such that they have separate database 
+10. Where feasible, design applications such that they have separate database 
 connections for read-only and read-write purposes so those can be directed to 
 one or more of the standbys or primary server as appropriate. The 
 [pgBouncer](../pgbouncer/) add on may be used for load balancing across the
