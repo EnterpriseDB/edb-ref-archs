@@ -23,6 +23,7 @@ a Postgres database server.
 * When the application can manage routing of read or read/write queries to 
 the appropriate database itself.
 * When load balancing across a number of read-only servers.
+* When pooling or load balancing is required on Windows.
 
 ### Architectural diagrams
 
