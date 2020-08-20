@@ -51,10 +51,11 @@ Add On    | Load balancing | Query Routing |
 ----------|:--------------:|:-------------:|
 pgBouncer | Yes            | No            |
 pgPool    | Yes            | Yes           |
-<!--
+
 #### Administration
 
 * [Monitoring with EDB PEM](edb-pem)
+<!--
 * [Backup & Recovery with EDB BART](edb-bart)
 -->
 ## Improvements and Issues
