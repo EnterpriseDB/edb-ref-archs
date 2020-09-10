@@ -102,14 +102,6 @@ one or more of the standbys or primary server as appropriate. The
 [pgBouncer](../pgbouncer/) add on may be used for load balancing across the
 standby servers.
 
-#### Scripts & Tools
-
-Scripts and tools to deploy this architecture are provided in this repository:
-
-* [Ansible](ansible/)
-* [Shell scripts](shell-scripts/)
-* [Terraform](terraform/)
-
 ### Summary
 
 The multi node database cluster architecture is primarily useful for production
