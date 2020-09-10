@@ -19,7 +19,10 @@ Property                        | Description
 Recovery Time Objective         | < 15 seconds
 Recovery Point Objective        | Typically a few seconds or less during failover (un-replicated transactions may be lost). Dependent on backup strategy for full recovery.
 Geographic Redundancy Objective | Dependent on node placement. Typically multi-availability zone.
-Target Availability             | 99.999%
+Target Availability             | 99.99% (99.999% may be possible with failover tuning)
+
+Note that all objectives and targets relate to EDB software only, and assume 
+that other hardware and software issues do not contribute to downtime. 
 
 ### Architectural diagram
 
