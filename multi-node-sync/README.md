@@ -20,7 +20,7 @@ transactions.
 
 Property                        | Description
 ------------------------------- | ----------------------------------------------
-Recovery Time Objective         | < 15 seconds
+Recovery Time Objective         | < 60 seconds
 Recovery Point Objective        | Typically a few seconds or less during failover, with no loss of committed transactions. Dependent on backup strategy for full recovery.
 Geographic Redundancy Objective | Dependent on node placement. Typically multi-availability zone.
 Target Availability             | 99.99% (99.999% may be possible with failover tuning)

@@ -16,7 +16,7 @@ level of availability and read scaling.
 
 Property                        | Description
 ------------------------------- | ----------------------------------------------
-Recovery Time Objective         | < 15 seconds
+Recovery Time Objective         | < 60 seconds
 Recovery Point Objective        | Typically a few seconds or less during failover (un-replicated transactions may be lost). Dependent on backup strategy for full recovery.
 Geographic Redundancy Objective | Dependent on node placement. Typically multi-availability zone.
 Target Availability             | 99.99% (99.999% may be possible with failover tuning)
