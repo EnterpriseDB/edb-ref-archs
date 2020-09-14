@@ -55,9 +55,9 @@ pgPool    | Yes            | Yes           |
 #### Administration
 
 * [Monitoring with EDB PEM](edb-pem)
-<!--
+
 * [Backup & Recovery with EDB BART](edb-bart)
--->
+
 ## Improvements and Issues
 
 If you want to suggest any improvements or report any problems you may have 
