@@ -2,7 +2,7 @@
 
 # EDB Reference Architectures
 
-## Monitoring & Management with EDB PEM
+## Monitoring & Management with Postgres Enterprise Manager (PEM)
 
 ### When should this architecture be used?
 

@@ -2,7 +2,7 @@
 
 # EDB Reference Architectures
 
-## Backup & Recovery with EDB BART
+## Backup & Recovery with Backup and Recovery Tool (BART)
 
 ### When should this architecture be used?
 
@@ -52,13 +52,13 @@ as the databases!
 ### What software is required?
 
 * Any Linux distribution [supported by EDB products](https://www.enterprisedb.com/product-compatibility).
-* EDB BART.
-* [EDB PEM](edb-pem) (optional, if graphical management, alerting and scheduling 
-is required).
+* BART.
+* [Postgres Enterprise Manager (PEM)](edb-pem) (optional, if graphical management, 
+alerting and scheduling is required).
 
 ### How is this architecture implemented?
 
-1. Install EDB BART on the desired server(s).
+1. Install BART on the desired server(s).
 
 2. If BART is to be managed using EDB PEM, follow the [PEM documentation](https://www.enterprisedb.com/edb-docs/d/edb-postgres-enterprise-manager/user-guides/bart-management-features-guide/latest/index.html) to configure PEM with BART.
 

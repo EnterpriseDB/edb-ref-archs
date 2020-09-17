@@ -54,8 +54,8 @@ pgPool    | Yes            | Yes           |
 
 #### Administration
 
-* [Monitoring with EDB PEM](edb-pem)
-* [Backup & Recovery with EDB BART](edb-bart)
+* [Monitoring with Postgres Enterprise Manager (PEM)](edb-pem)
+* [Backup & Recovery with Backup and Recovery Tool (BART)](edb-bart)
 
 ## Improvements and Issues
 
