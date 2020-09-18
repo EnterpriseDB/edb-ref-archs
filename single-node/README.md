@@ -66,14 +66,6 @@ access to the database server fromt he required IP addresses or subnets. If
 running in a Virtual Private Cloud, an elastic IP address for the server may
 also be required.
 
-#### Scripts & Tools
-
-Scripts and tools to deploy this architecture are provided in this repository:
-
-* [Ansible](ansible/)
-* [Shell scripts](shell-scripts/)
-* [Terraform](terraform/)
-
 ### Summary
 
 The single node database cluster architecture is primarily useful for development
