@@ -50,11 +50,11 @@ ensure connections are only routed to the active instances.
 
 2. If installing with EDB Postgres Advanced Server on Linux, visit the 
 [EDB Repos](https://repos.enterprisedb.com/) website to configure the EDB 
-repository and install pgBouncer.
+repository and install pgPool.
 
 3. If installing with PostgreSQL on Linux, visit the 
 [PostgreSQL Download](https://www.postgresql.org/download/linux/) page 
-to configure the PostgreSQL repository and install pgBouncer.
+to configure the PostgreSQL repository and install pgPool.
 
 4. Follow the [pgPool documentation](https://www.pgpool.net/)
 to configure pgPool to connect to the backend database servers as required,
